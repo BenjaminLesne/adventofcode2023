@@ -1,0 +1,17 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:1": "npx ts-node ./'DAY '$NUMBER/app1.ts",
+    "start:2": "npx ts-node ./'DAY '$NUMBER/app2.ts",
+    "DAY1:APP1": "NUMBER=1 npm run start:1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.2"
+  }
+}
