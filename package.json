@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:1": "npx ts-node ./'DAY '$NUMBER/app1.ts",
-    "start:2": "npx ts-node ./'DAY '$NUMBER/app2.ts",
-    "DAY1:APP1": "NUMBER=1 npm run start:1"
+    "start:1": "npx ts-node ./'DAY '$DAY/app1.ts",
+    "start:2": "npx ts-node ./'DAY '$DAY/app2.ts",
+    "DAY1:APP1": "DAY=1 npm run start:1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.2"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
   }
 }
